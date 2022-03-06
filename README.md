@@ -12,7 +12,7 @@ npm install
 The server responds to `/api/counter` with JSON of the form:  
 `{ "hello": "world", "count": count++ }`
 
-The server also hosts '../frontend/build' at the server root `/`.
+The server also hosts static files from '../fullstack-frontend/build' at the server root `/`.
 
 ```sh
 # Configure server to accept CORS credentials from frontend
