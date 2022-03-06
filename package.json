@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-backend",
+  "version": "0.0.1",
+  "description": "Experimental Fastify + SvelteKit backend.",
+  "main": "server.js",
+  "dependencies": {
+    "fastify": "^3.27.2",
+    "fastify-cors": "^6.0.3",
+    "fastify-static": "^4.5.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jldec/fastify-sveltekit"
+  },
+  "author": "github.com/jldec",
+  "license": "MIT",
+  "type": "module"
+}
