@@ -15,7 +15,7 @@ const fastify = Fastify({
 })
 
 fastify.register(fastifyStatic, {
-  root: join(__dirname, '../frontend/build'),
+  root: join(__dirname, '../fullstack-frontend/build'),
 })
 
 // allow CORS credentials from frontend, if specified
